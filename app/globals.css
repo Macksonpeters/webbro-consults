@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,500;8..144,600;8..144,700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fontShadow {
+  font-family: "Shadows Into Light";
+}
+
+.robotoFlex {
+  font-family: "Roboto Flex", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 6px; /* Adjust the width as needed */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(185 28 28); /* Change the color as desired */
+  border-radius: 3px; /* Adjust the radius as desired */
+}
+
+hr {
+  color: red;
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes zoomOut {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.carousel-zoom-in {
+  animation: zoomIn 3s ease-in-out forwards;
+}
+
+.slider-zoom-in {
+  animation: moveForward 3s ease-in-out forwards;
+}
+
+.carousel-zoom-out {
+  animation: zoomOut 3s ease-in-out forwards;
+}
+
+@media (min-width: 1024px) {
+  .animate__fadeInDown {
+    animation-name: none !important;
+  }
+}
