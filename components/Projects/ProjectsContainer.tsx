@@ -19,6 +19,7 @@ import NewsquatImgOne from "../../public/images/newsquat 2.png";
 import NewsquatImgTwo from "../../public/images/newsquat 5.png";
 import NewsquatImgThree from "../../public/images/newsquat 34.png";
 import TorrsitaImg from "../../public/images/torrista.png";
+import JCHImg from "../../public/images/yoycehomecare.png";
 import { Nunito_Sans } from "next/font/google";
 
 const nunitosans = Nunito_Sans({
@@ -92,14 +93,13 @@ const ProjectsContainer = () => {
           }
         />
         <Projects
-          projectTitle={"Newsquat"}
+          projectTitle={"Joyce Care Home"}
           projectSummary={
-            "NewsQuant is a specialized resource platform delivering in-depth media coverage and tailored content creation services. They provide expertly crafted articles and reports for organizations, ensuring insightful and well-researched content that enhances their communication and engagement strategies."
+            "JCH is an organization that are dedicated to providing personalized and compassionate home care services that cater to the unique needs of each of our senior citizens. Our goal is to enhance the quality of life for your loved ones while allowing them to maintain independence in the comfort of own home"
           }
-          projectImg={NewsquatImgOne}
-          projectTools={"NextJs, TailwindCss, Redux"}
-          projectLiveLink={"https://newsquat.netlify.app/"}
-          projectGitHub={"https://github.com/Macksonpeters/newramp"}
+          projectImg={JCHImg}
+          projectTools={"NextJs, TailwindCss, Shadcn"}
+          projectLiveLink={"https://workinprogress-jch.netlify.app/"}
         />
         <Projects
           projectTitle={"Banca"}
@@ -112,6 +112,17 @@ const ProjectsContainer = () => {
             "https://banca-frontend-qa.az-sterlingapp-tcoe-dev.p.azurewebsites.net/"
           }
         />
+        <Projects
+          projectTitle={"Newsquat"}
+          projectSummary={
+            "NewsQuant is a specialized resource platform delivering in-depth media coverage and tailored content creation services. They provide expertly crafted articles and reports for organizations, ensuring insightful and well-researched content that enhances their communication and engagement strategies."
+          }
+          projectImg={NewsquatImgOne}
+          projectTools={"NextJs, TailwindCss, Redux"}
+          projectLiveLink={"https://newsquat.netlify.app/"}
+          projectGitHub={"https://github.com/Macksonpeters/newramp"}
+        />
+
         <Projects
           projectTitle={"Adventra"}
           projectSummary={

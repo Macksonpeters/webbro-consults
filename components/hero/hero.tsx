@@ -7,7 +7,12 @@ import { BsTelephoneOutboundFill, BsGithub, BsWhatsapp } from "react-icons/bs";
 
 const Hero = () => {
   const [text] = useTypewriter({
-    words: ["Front-End Developer", "Web Developer", "S.E.O Specialist"],
+    words: [
+      "Web Developer",
+      "Front-End Developer",
+      "Back-End Developer",
+      "S.E.O Specialist",
+    ],
     loop: false,
     typeSpeed: 160,
   });
