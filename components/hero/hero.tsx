@@ -74,7 +74,7 @@ const Hero = () => {
                   <BsTelephoneOutboundFill className="inline text-lg " />
                 </a>
                 <a
-                  href="https://github.com/Macksonpeters"
+                  // href="https://github.com/Macksonpeters"
                   className=" text-white"
                   target="_blank"
                 >
