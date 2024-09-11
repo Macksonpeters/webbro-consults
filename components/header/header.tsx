@@ -69,9 +69,9 @@ const Header = () => {
               onClick={() => {
                 setNavOpen(!navOpen);
               }}
-              className="mt-5 text-base lg:mt-0 lg:border-none "
+              className="mt-5 hidden lg:inline text-base lg:mt-0 lg:border-none "
             >
-              <Link href="/">Home</Link>
+              <a href="/">Home</a>
             </li>
             <li
               onClick={() => {
@@ -79,7 +79,7 @@ const Header = () => {
               }}
               className="mt-5 text-base lg:mt-0 "
             >
-              <Link href="/#Projects">Projects</Link>
+              <a href="/#Projects">Projects</a>
             </li>
             <li
               onClick={() => {
@@ -87,7 +87,7 @@ const Header = () => {
               }}
               className="mt-5 text-base lg:mt-0 "
             >
-              <Link href="/#About">About</Link>{" "}
+              <a href="/#About">About</a>{" "}
             </li>
             <li
               onClick={() => {
@@ -95,7 +95,7 @@ const Header = () => {
               }}
               className="mt-5 text-base lg:mt-0 "
             >
-              <Link href="/#contact">Contact</Link>{" "}
+              <a href="/#contact">Contact</a>{" "}
             </li>
           </ul>
         </div>
