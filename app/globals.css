@@ -13,6 +13,16 @@
   font-family: "Roboto Flex", sans-serif;
 }
 
+#logoBg {
+  background: url("/images/webbroconsultslogo.png");
+  height: 100px;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-position: start;
+  display: inline;
+  background-size: contain;
+}
+
 ::-webkit-scrollbar {
   width: 6px; /* Adjust the width as needed */
 }

@@ -8,10 +8,12 @@ import { BsTelephoneOutboundFill, BsGithub, BsWhatsapp } from "react-icons/bs";
 const Hero = () => {
   const [text] = useTypewriter({
     words: [
-      "Web Developer",
-      "Front-End Developer",
-      "Back-End Developer",
-      "S.E.O Specialist",
+      "Web Developement",
+      "Front-End Development",
+      "Back-End Development",
+      "S.E.O Specialization",
+      "UI/UX Design",
+      "Web Consulting",
     ],
     loop: false,
     typeSpeed: 160,
@@ -21,7 +23,7 @@ const Hero = () => {
     <div className=" lg:mt-10 lg:px-5 vsmall:w-full">
       <div className="flex justify-between">
         <div className="lg:w-3/4">
-          <div className=" w-[100%] relative xl:relative xl:w-[90%] mt-20 lg:mt-32">
+          <div className=" w-[100%] relative xl:relative xl:w-[90%] mt-[-20px] lg:mt-32">
             <p className="text-lg text-gray-300 mb-3 vsmall:text-base">
               Welcome to our world
             </p>
@@ -34,7 +36,7 @@ const Hero = () => {
              xl:w-3/4  xl:text-5xl"
             >
               {" "}
-              I'm a{" "}
+              {/* I'm a{" "} */}
               <span className="fontShadow text-red-700 font-bold msmall:tracking-normal msmall:w-full">
                 {text}
               </span>
@@ -49,7 +51,7 @@ const Hero = () => {
             </p>
 
             <div className=" mt-5 w-[60%] text-sm pt-3 rounded xl:w-[20%] xl:mt-20 xl:text-lg">
-              <p className="text-gray-300 text-lg vsmall:text-base">Find me</p>
+              <p className="text-gray-300 text-lg vsmall:text-base">Find us</p>
               <div className="mt-3 flex gap-4">
                 {/* <a
                   href="https://www.linkedin.com/in/peterony"
