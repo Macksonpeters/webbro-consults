@@ -71,7 +71,7 @@ const Header = () => {
               }}
               className="mt-5 text-base lg:mt-0 lg:border-none "
             >
-              <a href="/">Home</a>
+              <Link href="/">Home</Link>
             </li>
             <li
               onClick={() => {
@@ -79,7 +79,7 @@ const Header = () => {
               }}
               className="mt-5 text-base lg:mt-0 "
             >
-              <a href="/#Projects">Projects</a>
+              <Link href="/#Projects">Projects</Link>
             </li>
             <li
               onClick={() => {
@@ -87,7 +87,7 @@ const Header = () => {
               }}
               className="mt-5 text-base lg:mt-0 "
             >
-              <a href="/#About">About</a>{" "}
+              <Link href="/#About">About</Link>{" "}
             </li>
             <li
               onClick={() => {
@@ -95,7 +95,7 @@ const Header = () => {
               }}
               className="mt-5 text-base lg:mt-0 "
             >
-              <a href="/#contact">Contact</a>{" "}
+              <Link href="/#contact">Contact</Link>{" "}
             </li>
           </ul>
         </div>
