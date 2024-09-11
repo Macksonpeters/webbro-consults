@@ -99,7 +99,7 @@ const ProjectsContainer = () => {
           }
           projectImg={JCHImg}
           projectTools={"NextJs, TailwindCss, Shadcn"}
-          projectLiveLink={"https://workinprogress-jch.netlify.app/"}
+          projectLiveLink={"https://joycecarehome.net/"}
         />
         <Projects
           projectTitle={"Banca"}

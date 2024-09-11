@@ -40,6 +40,7 @@ const Projects = ({
           >
             <Image
               src={projectImg}
+              priority={true}
               width={0}
               height={0}
               className={` object-contain w-[80vw] sm:w-[90vw] lg:w-[38vw] lg:h-[230px]  xl:w-[25vw] 2xl:w-[27vw] 2xl:max-w-[500px] transform scale-100 transition-transform duration-500 ease-in-out hover:scale-[97%]`}
