@@ -60,7 +60,7 @@ const Hero = () => {
                 </a> */}
 
                 <a
-                  href="mailto:macksonpeterfe@gmail.com"
+                  href="mailto:webbroconsults@gmail.com"
                   className="text-red-700"
                   target="_blank"
                 >

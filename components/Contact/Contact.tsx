@@ -11,7 +11,7 @@ const Contact = () => {
           <div className="mt-2">
             <p className="text-base text-gray-400 fontShadow tracking-widest font-bold lg:text-center lg:mt-5 lg:text-lg">
               <a
-                href="mailto:macksonpeterfe@gmail.com"
+                href="mailto:webbroconsults@gmail.com"
                 className="text-red-700 pe-2"
                 target="_blank"
               >

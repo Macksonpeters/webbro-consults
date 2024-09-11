@@ -96,7 +96,7 @@ const AboutComponent = () => {
               </span>
             </p>
             <a
-              href="mailto:macksonpeterfe@gmail.com"
+              href="mailto:webbroconsults@gmail.com"
               className="pt-5 text-sm inline-block text-gray-400 pb-1 hover:border-b border-gray-400 lg:text-base"
             >
               Get in touch{" "}
