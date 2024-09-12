@@ -18,6 +18,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Webbro-Consults",
     description: "Website Bro Consults",
+
     images: [
       {
         url: "",
@@ -41,6 +42,7 @@ export default function RootLayout({
           name="google-site-verification"
           content="zdAi3ZmQ8CH2x8IGKKmLG1nxxeR4_NcxLE--P-8d0TE"
         />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
       <body className={lato.className}>
         <Header />
