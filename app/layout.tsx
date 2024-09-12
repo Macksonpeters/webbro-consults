@@ -36,6 +36,12 @@ export default function RootLayout({
       lang="en"
       className="max-w-[1920px] 2xl:flex 2xl:mx-auto 2xl:justify-center bg-gray-950 w-full px-5 lg:px-10"
     >
+      <head>
+        <meta
+          name="google-site-verification"
+          content="zdAi3ZmQ8CH2x8IGKKmLG1nxxeR4_NcxLE--P-8d0TE"
+        />
+      </head>
       <body className={lato.className}>
         <Header />
         {children}
