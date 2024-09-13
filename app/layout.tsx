@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Webbro-Consults",
     description: "Website Bro Consults",
-    images: ["/favicon.ico"],
+    images: ["https://webbro-consults.com.ng/favicon.ico?v=1"],
   },
 };
 
