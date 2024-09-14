@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Projects from "./Projects";
 import OuxMedia from "../../public/images/ouxmedia.jpg";
 import OuxHcare from "../../public/images/ouxhcare.jpg";
@@ -21,6 +21,7 @@ import NewsquatImgThree from "../../public/images/newsquat 34.png";
 import TorrsitaImg from "../../public/images/torrista.png";
 import JCHImg from "../../public/images/yoycehomecare.png";
 import { Nunito_Sans } from "next/font/google";
+import { motion, useInView } from "framer-motion";
 
 const nunitosans = Nunito_Sans({
   weight: ["200", "300", "400", "500", "600", "700", "800", "900"],
@@ -31,6 +32,8 @@ const nunitosans = Nunito_Sans({
 const ProjectsContainer = () => {
   const [newsquatImg, setNewsquatImg] = useState(1);
   const [direction, setDirection] = useState("up");
+  const projectsRef = useRef(null);
+  const isInView = useInView(projectsRef, { once: true });
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -53,7 +56,15 @@ const ProjectsContainer = () => {
   }, [newsquatImg, direction]);
 
   return (
-    <div className="lg:px-5">
+    <motion.div
+      ref={projectsRef}
+      style={{
+        transform: isInView ? "none" : "translateY(200px)",
+        opacity: isInView ? 1 : 0,
+        transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
+      }}
+      className="lg:px-5"
+    >
       <div>
         <p
           className={`text-gray-300 ${nunitosans.className} text-lg  font-semibold tracking-wide lg:text-2xl`}
@@ -213,7 +224,7 @@ const ProjectsContainer = () => {
           // projectLiveLink={"https://preneeta.netlify.app/"}
         /> */}
       </div>
-    </div>
+    </motion.div>
   );
 };
 
