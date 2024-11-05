@@ -76,7 +76,7 @@ const ProjectsContainer = () => {
         // key={newsquatImg}
         className="flex justify-around lg:flex-row lg:justify-between flex-wrap vsmall:flex-row"
       >
-        <Projects
+        {/* <Projects
           projectTitle={"HealthBanc"}
           projectSummary={
             "HealthBanc is a comprehensive digital platform that integrates a range of services aimed at promoting preventive healthcare, wellness, and fitness. Our offerings currently include access to gym and fitness services, healthy meal options, and convenient diagnostic services."
@@ -91,8 +91,8 @@ const ProjectsContainer = () => {
           }
           projectTools={"NextJs, TailwindCss, Redux"}
           projectLiveLink={"https://healthbanc.ng/about-us"}
-        />
-        <Projects
+        /> */}
+        {/* <Projects
           projectTitle={"Torrista"}
           projectSummary={
             "Torrista is an online e-commerce tourism platform to curate all players in the Nigerian tourism space into a single platform. The platform provides a simple and convenient means for customers to book, plan personal, family/group,  vacation and enjoy a completely new experience of adventure, relaxation, and fun with a flexible payment option"
@@ -102,7 +102,7 @@ const ProjectsContainer = () => {
           projectLiveLink={
             "https://adventure360customer-qa-v3.az-sterlingapp-tcoe-dev.p.azurewebsites.net/"
           }
-        />
+        /> */}
         <Projects
           projectTitle={"Joyce Care Home"}
           projectSummary={
@@ -112,7 +112,7 @@ const ProjectsContainer = () => {
           projectTools={"NextJs, TailwindCss, Shadcn"}
           projectLiveLink={"https://joycecarehome.net/"}
         />
-        <Projects
+        {/* <Projects
           projectTitle={"Banca"}
           projectSummary={
             "Banca is a digital SME bank, designed to help small businesses open accounts, transfer funds, pay bills and better manage their money, get loans, generate statements for embassies and grow their businesses from the mobile app or web application."
@@ -122,7 +122,7 @@ const ProjectsContainer = () => {
           projectLiveLink={
             "https://banca-frontend-qa.az-sterlingapp-tcoe-dev.p.azurewebsites.net/"
           }
-        />
+        /> */}
         <Projects
           projectTitle={"Newsquat"}
           projectSummary={
@@ -144,7 +144,7 @@ const ProjectsContainer = () => {
           projectLiveLink={"https://adventra.netlify.app/"}
           projectGitHub={"https://github.com/Macksonpeters/adventra"}
         />
-
+        {/* 
         <Projects
           projectTitle={"Control Notification System"}
           projectSummary={
@@ -152,7 +152,7 @@ const ProjectsContainer = () => {
           }
           projectImg={CnsImg}
           projectTools={"ReactJs, ChakraUI, Redux"}
-        />
+        /> */}
 
         {/* <Projects
           projectTitle={"OuxMedia"}
@@ -175,12 +175,12 @@ const ProjectsContainer = () => {
           projectLiveLink={"https://imperiumclone.netlify.app/"}
           projectGitHub={"https://github.com/Macksonpeters/Imperiumclone"}
         /> */}
-        <Projects
+        {/* <Projects
           projectTitle={"HB Admin"}
           projectSummary={"Admin Application of the HB Website"}
           projectImg={HbAdminImg}
           projectTools={"Nextjs, Tailwindcss, ContextApi"}
-        />
+        /> */}
 
         <Projects
           projectTitle={"OuxPay"}
