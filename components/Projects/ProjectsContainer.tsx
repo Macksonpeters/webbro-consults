@@ -90,7 +90,6 @@ const ProjectsContainer = () => {
               : newsquatImg == 3 && HealthBancThree
           }
           projectTools={"NextJs, TailwindCss, Redux"}
-          projectLiveLink={"https://healthbanc.ng/about-us"}
         /> */}
         {/* <Projects
           projectTitle={"Torrista"}
@@ -99,9 +98,7 @@ const ProjectsContainer = () => {
           }
           projectImg={TorrsitaImg}
           projectTools={"NextJs, TailwindCss, Redux"}
-          projectLiveLink={
-            "https://adventure360customer-qa-v3.az-sterlingapp-tcoe-dev.p.azurewebsites.net/"
-          }
+          
         /> */}
         <Projects
           projectTitle={"Joyce Care Home"}
@@ -119,9 +116,7 @@ const ProjectsContainer = () => {
           }
           projectImg={BancaImg}
           projectTools={"NextJs, TailwindCss, Redux"}
-          projectLiveLink={
-            "https://banca-frontend-qa.az-sterlingapp-tcoe-dev.p.azurewebsites.net/"
-          }
+          
         /> */}
         <Projects
           projectTitle={"Newsquat"}
