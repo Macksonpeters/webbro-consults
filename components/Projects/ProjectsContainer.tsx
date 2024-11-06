@@ -126,7 +126,6 @@ const ProjectsContainer = () => {
           projectImg={NewsquatImgOne}
           projectTools={"NextJs, TailwindCss, Redux"}
           projectLiveLink={"https://newsquat.netlify.app/"}
-          projectGitHub={"https://github.com/Macksonpeters/newramp"}
         />
 
         <Projects
@@ -137,7 +136,6 @@ const ProjectsContainer = () => {
           projectImg={AdventraImg}
           projectTools={"Nextjs, Tailwindcss"}
           projectLiveLink={"https://adventra.netlify.app/"}
-          projectGitHub={"https://github.com/Macksonpeters/adventra"}
         />
         {/* 
         <Projects
@@ -157,7 +155,6 @@ const ProjectsContainer = () => {
           projectImg={OuxMedia}
           projectTools={"ReactJs, Redux, Firebase"}
           projectLiveLink={"https://ouxsocial.netlify.app/"}
-          projectGitHub={"https://github.com/Macksonpeters/ouxsocialmedia"}
         /> */}
 
         {/* <Projects
@@ -168,7 +165,6 @@ const ProjectsContainer = () => {
           projectImg={ImperiumCloneImg}
           projectTools={"Bootstrap, Html/Css"}
           projectLiveLink={"https://imperiumclone.netlify.app/"}
-          projectGitHub={"https://github.com/Macksonpeters/Imperiumclone"}
         /> */}
         {/* <Projects
           projectTitle={"HB Admin"}
@@ -185,9 +181,6 @@ const ProjectsContainer = () => {
           projectImg={OuxPay}
           projectTools={"NextJs, Redux-Toolkit"}
           projectLiveLink={"https://ouxay.netlify.app"}
-          projectGitHub={
-            "https://github.com/Macksonpeters/BankingApplication_NextJs-Redux"
-          }
         />
         {/* <Projects
           projectTitle={"OuxHcare"}
@@ -197,7 +190,6 @@ const ProjectsContainer = () => {
           projectImg={OuxHcare}
           projectTools={"ExpressJs, NextJs, TypeScript"}
           // projectLiveLink={"https://ouxhcare.vercel.app/"}
-          projectGitHub={"https://github.com/Macksonpeters/ouxhealthfrontend"}
         /> */}
         {/* <Projects
           projectTitle={"Music Application"}
@@ -207,7 +199,6 @@ const ProjectsContainer = () => {
           projectImg={MacksonMusicImg}
           projectTools={"NextJs"}
           // projectLiveLink={"https://macksonmusic.netlify.app/"}
-          projectGitHub={"https://github.com/Macksonpeters/musicplayer"}
         /> */}
         {/* <Projects
           projectTitle={"School Result Generator"}
